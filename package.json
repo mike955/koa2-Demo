@@ -4,11 +4,12 @@
   "description": "This a koa2-ES6 Demo ",
   "main": "app.js",
   "scripts": {
-     "start": "nodemon ./app.js --exec babel-node",
+    "start": "nodemon ./app.js --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
-    },
+  },
   "dependencies": {
-    "babel-runtime": "^6.11.6"
+    "babel-runtime": "^6.11.6",
+    "koa": "^2.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",

@@ -1,4 +1,4 @@
-/*import koa from 'koa';
+import koa from 'koa';
 
 const app = new koa();
 
@@ -6,6 +6,6 @@ app.use( ctx => {
 	ctx.body = 'Hello World';
 });
 
-app.listen(3000);*/
+app.listen(3000);
 
-console.log(111)
+//console.log(111)
